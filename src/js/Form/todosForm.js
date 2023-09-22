@@ -10,7 +10,8 @@ function onSubmitFormTask() {
       nome: form.querySelector("[name=nome]").value,
       valor: form.querySelector("[name=valor]").value,
       desc: form.querySelector("[name=desc]").value,
-      qtd: form.querySelector("[name=qtd]").value
+      qtd: form.querySelector("[name=qtd]").value,
+      check: false
     });
 
     renderTodos();
